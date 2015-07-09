@@ -1,0 +1,22 @@
+General Assembly 2015 Summer Project
+
+Sam Dreyfuss
+
+I would like to build a model to predict the fall in stock prices.  After witnessing several crashes, I believe crashes may be predictable by looking at the following data points:
+
+Stock price (over daily or weekly time period)
+Sentiment from the investment community, such as stocktwits.com
+Total retail holdings of equity holdings (as percentage) of outstanding equity
+Generic valuation metric such as 12-month rolling Price-to-earnings ratio
+
+I believe that a sudden rise in a stock that is trending positively via social media, has a high retail ownership percentage, and has a high valuation will likely fall.  I would like to determine if this is true and then create a model to monitor stocks for potentially profitable opportunities.
+
+Prior to making the model, I feel as though this strategy will need to be “back tested” first, meaning I would like to determine if the data points are statistically significant in determining a collapse of stock price.  Once the model has been tested, I will proceed to building a model that collects data points from the internet and conducts the analysis on a day-to-day basis.
+
+To obtain historical data points, I will begin by pulling a sample data set from Bloomberg.  I will pull prices, retail holdings, and valuations.  I will also attempt to derive sentiment.  
+
+From this project, I hope to learn more about predictive analytics as well as sentiment analysis.
+
+
+
+
